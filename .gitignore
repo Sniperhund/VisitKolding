@@ -1,34 +1,24 @@
-# macOS system files
-.DS_Store
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
 
-# Node.js dependencies
-node_modules/
+# Node dependencies
+node_modules
 
-# Compiled output
-dist/
-build/
-
-# Logs and databases
+# Logs
+logs
 *.log
-*.sqlite
 
-# Environment variables
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
 .env
-
-# IDE and editor files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Package lock files
-package-lock.json
-yarn.lock
-
-# Dependency directories
-bower_components/
-jspm_packages/
-
-# Build artifacts
-*.min.js
-*.min.css
+.env.*
+!.env.example
