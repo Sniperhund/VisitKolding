@@ -14,7 +14,7 @@
 html {
 	--text-color: rgb(88, 88, 88);
 
-	font-family: "Montserrat", sans-serif;
+	font-family: "Noto Sans", sans-serif;
 	font-size: 62.5%;
 	color: white;
 }
