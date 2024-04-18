@@ -13,6 +13,9 @@
 
 html {
 	--text-color: rgb(88, 88, 88);
+	--footer-bg-color: #333;
+	--footer-title-color: #f4f0ff;
+	--footer-bottom-bg-color: #b51817;
 
 	font-family: "Noto Sans", sans-serif;
 	font-size: 62.5%;

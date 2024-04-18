@@ -10,7 +10,7 @@
 				</p>
 			</section>
 			<section class="footer-nav">
-				<section class="footer-nav-group">
+				<div class="footer-nav-group">
 					<p class="footer-nav-group-title">Nyttige links</p>
 					<ul>
 						<li>
@@ -46,7 +46,7 @@
 							>
 						</li>
 					</ul>
-				</section>
+				</div>
 				<div class="footer-nav-group">
 					<div class="footer-nav-group-title">Nyttige links</div>
 					<ul>
@@ -151,7 +151,7 @@
 
 <style scoped>
 footer {
-	background-color: #333; /* <-- CSS variable please */
+	background-color: var(--footer-bg-color);
 	color: white;
 	text-align: center;
 }
@@ -204,14 +204,14 @@ ul {
 
 .footer-nav-group-title {
 	font-weight: 500;
-	color: #f4f0ff;
+	color: var(--footer-title-color);
 	margin-bottom: 20px;
 }
 
 .footer-nav-group-item {
 	display: block;
 	transition: cubic-bezier(0.6, 0.6, 0, 1) 0.45s color;
-	color: #efedfd99;
+	color: var(--footer-nav-item-color);
 }
 
 .footer-title {
@@ -229,7 +229,7 @@ ul {
 }
 
 .footer-bottom {
-	background-color: #b51817; /* <-- CSS variable please */
+	background-color: var(--footer-bottom-bg-color);
 	padding: 13px 145px;
 }
 
@@ -242,12 +242,12 @@ ul {
 	align-items: center;
 	display: flex;
 	gap: 20px;
+}
 
-	a {
-		font-size: 1.3rem;
-		font-weight: bold;
-		color: white;
-	}
+.footer-legal a {
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: white;
 }
 
 .footer-copyright {

@@ -26,12 +26,9 @@ function getStyle() {
 		</nav>
 	</div>
 	<header :style="getStyle()">
-		<div>
-			<main>
-				<h1>{{ title }}</h1>
-			</main>
+		<div class="title-container">
+			<p>{{ title }}</p>
 		</div>
-		<img src="/mountains.png" id="header-border" />
 	</header>
 </template>
 
@@ -69,11 +66,26 @@ header {
 
 	position: relative;
 	width: 100%;
-	height: 95vh;
+	height: 90vh;
 	z-index: -1;
 
 	div {
 		height: 100%;
+	}
+
+	.title-container {
+		position: absolute;
+		background-color: white;
+		color: black;
+		height: 100px;
+		width: 600px;
+		display: flex;
+		align-items: center;
+		font-size: 4.5rem;
+		font-weight: bold;
+		padding: 33px;
+		bottom: 0;
+		left: 145px;
 	}
 
 	#header-border {
