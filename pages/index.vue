@@ -1,5 +1,9 @@
 <script setup>
 const carouselRef = ref(null)
+
+useSeoMeta({
+	title: "Visit Kolding",
+})
 </script>
 
 <template>
@@ -9,7 +13,7 @@ const carouselRef = ref(null)
 			ref="carouselRef"
 			:items-to-show="1"
 			wrap-around
-			autoplay="2500"
+			:autoplay="2500"
 		>
 			<slide :key="1">
 				<NewsCard

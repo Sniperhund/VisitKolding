@@ -19,8 +19,8 @@ function getStyle() {
 				<img src="/logo.png" id="logo" />
 			</a>
 
-			<a href="/">Hjem</a>
 			<a href="/designby">Kolding som designby</a>
+			<a href="/trafik">Trafik</a>
 
 			<Icon name="i-material-symbols-search" id="search" />
 		</nav>

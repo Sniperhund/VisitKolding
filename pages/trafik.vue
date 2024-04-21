@@ -1,3 +1,9 @@
+<script setup>
+useSeoMeta({
+	title: "Visit Kolding - Trafik",
+})
+</script>
+
 <template>
 	<Header imgUrl="/bybus.jpg" title="Trafik" />
 
