@@ -78,7 +78,7 @@ header {
 		background-color: white;
 		color: black;
 		height: 100px;
-		width: 600px;
+		min-width: 600px;
 		display: flex;
 		align-items: center;
 		font-size: 4.5rem;
