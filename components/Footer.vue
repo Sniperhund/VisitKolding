@@ -127,7 +127,7 @@
 			<ul class="limit-width footer-ul">
 				<li>
 					<p class="footer-copyright">
-						© 2021 VisitKolding All Rights Reserved.
+						© 2024 VisitKolding All Rights Reserved.
 					</p>
 				</li>
 				<div class="footer-legal">
