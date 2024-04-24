@@ -2,11 +2,11 @@
 export default defineNuxtConfig({
 	devtools: { enabled: true },
 	modules: [
-        "vue3-carousel-nuxt",
-        "nuxt-icon",
-        "@nuxtjs/google-fonts",
-        "@nuxtjs/tailwindcss"
-    ],
+		"vue3-carousel-nuxt",
+		"nuxt-icon",
+		"@nuxtjs/google-fonts",
+		"@nuxtjs/tailwindcss",
+	],
 	googleFonts: {
 		"Noto+Sans": true,
 	},

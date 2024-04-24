@@ -30,6 +30,10 @@ h1 {
 	font-size: 7.2rem;
 }
 
+h2 {
+	font-size: 3.2rem;
+}
+
 a {
 	text-decoration: none;
 	line-height: 1.3;
@@ -40,5 +44,40 @@ a {
 .limit-width {
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.image-text-mix {
+	color: black;
+
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+
+	article {
+		display: grid;
+		gap: 50px;
+
+		grid-template-columns: 1fr 1fr;
+
+		div {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 15px;
+
+			height: 100%;
+
+			a {
+				color: var(--footer-bottom-bg-color);
+			}
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
 }
 </style>

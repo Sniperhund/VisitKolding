@@ -19,7 +19,7 @@ useSeoMeta({
 		</p>
 	</section>
 
-	<section class="offentligt-transport limit-width">
+	<section class="image-text-mix limit-width">
 		<article>
 			<div>
 				<h2>Offentligt Transport</h2>
@@ -75,43 +75,9 @@ h2 {
 .beskrivelse {
 	color: black;
 
-	padding: 60px 0;
+	padding-top: 60px;
 
 	max-width: 600px;
 	margin: 0 auto;
-}
-
-.offentligt-transport {
-	color: black;
-
-	display: flex;
-	flex-direction: column;
-	gap: 50px;
-	margin-bottom: 100px;
-
-	article {
-		display: grid;
-		gap: 50px;
-
-		grid-template-columns: 1fr 1fr;
-
-		div {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			gap: 15px;
-
-			height: 100%;
-
-			a {
-				color: var(--footer-bottom-bg-color);
-			}
-		}
-
-		img {
-			width: 100%;
-			height: 100%;
-		}
-	}
 }
 </style>
