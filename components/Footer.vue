@@ -225,7 +225,6 @@ ul {
 	font-weight: 300;
 	text-align: left;
 	max-width: 344px;
-	font-family: "Noto Sans";
 }
 
 .footer-bottom {
