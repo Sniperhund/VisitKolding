@@ -80,4 +80,13 @@ a {
 		}
 	}
 }
+
+.beskrivelse {
+	color: black;
+
+	padding-top: 60px;
+
+	max-width: 600px;
+	margin: 0 auto;
+}
 </style>

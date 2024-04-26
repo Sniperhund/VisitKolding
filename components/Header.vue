@@ -2,66 +2,42 @@
 const props = defineProps({
 	title: String,
 	imgUrl: String,
+	contain: {
+		type: Boolean,
+		default: false,
+	},
+	showTitle: {
+		type: Boolean,
+		default: true,
+	},
 })
 
 function getStyle() {
-	return "background-image: url('" + props.imgUrl + "');"
+	const size = props.contain == true ? "contain" : "cover"
+
+	return (
+		"background-image: url('" +
+		props.imgUrl +
+		"'); background-size: " +
+		size +
+		";"
+	)
 }
 </script>
 
 <template>
-	<div
-		style="background-color: white; height: 60px; position: sticky; top: 0"
-	>
-		<nav class="limit-width">
-			<a href="/" id="logo-btn">
-				<img src="/logo.png" id="logo" />
-			</a>
-
-			<a href="/designby">Kolding som designby</a>
-			<a href="/trafik">Trafik</a>
-
-			<Icon name="i-material-symbols-search" id="search" />
-		</nav>
-	</div>
+	<Nav />
 	<header :style="getStyle()">
-		<div class="title-container">
+		<div class="title-container" v-if="props.showTitle">
 			<p>{{ title }}</p>
 		</div>
 	</header>
 </template>
 
 <style scoped>
-nav {
-	display: flex;
-	gap: 10px;
-
-	align-items: center;
-
-	height: 100%;
-
-	color: black;
-	z-index: 500;
-}
-
-#logo {
-	height: 54px;
-}
-
-#logo-btn {
-	display: flex;
-	align-items: center;
-	margin-right: 30px;
-}
-
-#search {
-	margin-left: auto;
-	font-size: 2.4rem;
-	color: var(--text-color);
-}
-
 header {
-	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 
 	position: relative;
 	width: 100%;

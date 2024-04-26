@@ -71,13 +71,4 @@ useSeoMeta({
 h2 {
 	font-size: 3.2rem;
 }
-
-.beskrivelse {
-	color: black;
-
-	padding-top: 60px;
-
-	max-width: 600px;
-	margin: 0 auto;
-}
 </style>
