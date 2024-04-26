@@ -14,7 +14,6 @@ function getStyle() {
 		style="background-color: white; height: 60px; position: sticky; top: 0"
 	>
 		<nav class="limit-width">
-			<!-- Opdatere til at være det nye logo hvor at højden passer til den hvide stribe på logoet -->
 			<a href="/" id="logo-btn">
 				<img src="/logo.png" id="logo" />
 			</a>
