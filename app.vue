@@ -34,6 +34,11 @@ h2 {
 	font-size: 3.2rem;
 }
 
+h3 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+
 a {
 	text-decoration: none;
 	line-height: 1.3;

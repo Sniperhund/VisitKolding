@@ -68,11 +68,6 @@
 </template>
 
 <style scoped>
-h3 {
-	font-size: 2rem;
-	font-weight: 500;
-}
-
 img {
 	object-fit: cover;
 }
