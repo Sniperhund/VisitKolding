@@ -58,7 +58,7 @@ const route = useRoute()
 	}
 
 	select {
-		width: 25%;
+		width: 50%;
 		border: 1px solid black;
 		border-radius: 5px;
 	}
