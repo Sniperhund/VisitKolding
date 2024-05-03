@@ -51,7 +51,7 @@
 			<img src="/natteliv.jpg" />
 		</article>
 		<article>
-			<img src="/by.jpg" />
+			<img src="/by.JPG" />
 			<div>
 				<h3>Tag børene med</h3>
 				<p>
