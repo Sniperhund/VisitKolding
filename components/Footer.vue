@@ -15,18 +15,18 @@
 					<ul>
 						<li>
 							<a
-								href=""
+								href="/kontakt"
 								aria-label="Link"
 								class="footer-nav-group-item"
-								>Link</a
+								>Kontakt os</a
 							>
 						</li>
 						<li>
 							<a
-								href=""
+								href="/merch"
 								aria-label="Link"
 								class="footer-nav-group-item"
-								>Link</a
+								>Merch</a
 							>
 						</li>
 						<li>
@@ -158,6 +158,7 @@ footer {
 
 a {
 	text-decoration: none;
+	cursor: pointer;
 }
 
 ul {

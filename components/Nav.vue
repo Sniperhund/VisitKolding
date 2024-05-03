@@ -9,6 +9,10 @@
 
 			<a href="/designby">Kolding som designby</a>
 			<a href="/trafik">Trafik</a>
+			<a href="/geografisk-have">Geografisk Have</a>
+			<a href="/at-bo-i-kolding">At bo i Kolding</a>
+			<a href="/havnen">Havnen</a>
+			<a href="/historiske-bygninger">Historiske Bygninger</a>
 			<a href="/merch">Merch</a>
 
 			<Icon name="i-material-symbols-search" id="search" />
